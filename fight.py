@@ -11,9 +11,9 @@ class WorldMap(object):
         ''' Checks if a given space on the map and returns True if occupied. '''
         return self.map[x][y] is not None
 
-world = WorldMap(100, 100)
+world = WorldMap(100, 100) 
 
-class Entity(object):
+class Entity(object): 
     #def __init__(self, x, y):
         #self.set_position(x, y)
         # TODO: prompt for new x & y when (x,y) is already occupied
