@@ -6,7 +6,7 @@ class WorldMap(object):
         self.width = width
         self.height = height
         self.map = [[None for x in range(self.width)] for y in range(self.height)]
-
+ 
     def is_occupied(self, x, y):
         ''' Checks if a given space on the map and returns True if occupied. '''
         return self.map[x][y] is not None
